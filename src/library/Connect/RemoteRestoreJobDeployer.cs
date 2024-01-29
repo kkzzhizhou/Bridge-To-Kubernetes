@@ -329,11 +329,11 @@ namespace Microsoft.BridgeToKubernetes.Library.Connect
                   resources: [""pods""]
                   verbs: [""get"", ""list"", ""update"", ""patch"", ""delete""]
 
-                - apiGroups: [""extensions"", ""apps""]
+                - apiGroups: ["""apps""]
                   resources: [""deployments"", ""statefulsets""]
                   verbs: [""get"", ""list"", ""update"", ""patch""]
 
-                - apiGroups: [""extensions"", ""apps""]
+                - apiGroups: ["""apps""]
                   resources: [""replicasets""]
                   verbs: [""get"", ""list""]
 
